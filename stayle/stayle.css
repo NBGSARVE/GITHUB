@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.logo{
+    font-size: 30px;
+    color: aliceblue;
+}
+.header{
+    background-color: black;
+}
+body{
+    font-family: fantasy;
+}
+a,
+li{
+text-decoration: none;
+
+}
+.header .container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.header_item{
+    display: flex;
+    column-gap: 20px;
+
+}
+.header_link{
+    font-size: 25px;
+
+
+}
+.sec{
+    height: 100vh;
+    background-color:aquamarine ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: rgb(0, 0, 255);
+}
+h1{
+    font-size: 60px;
+    filter: drop-shadow(8px 8px 4px #d4ff00);
+}
